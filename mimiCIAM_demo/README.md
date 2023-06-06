@@ -11,8 +11,10 @@ In this notebook is a function run_ciam_data(). This function will get all of th
 *will reference jupyter notebook cells by number, which includes markdown and julia cells*
 1. Pull npv_ciam.ipynb, downscaling.jl, gulf_segments.csv, segment_data_gulf.csv 
 2. pull SLR_Manip (you only need all the contribution csv's titled [contribution]_[ssp/rcp]_f.csv)
-2. run the cell 1 and cell 2 to import necessary packages (make sure you have the packages installed!)
-3. run cells 16-19 to read necessary data / helper functions
-4. run cell 22 to instantiate function run_ciam_data()
-5. run alls cells in the section "Run all segments in the Gulf Coast" cells 30-34
-6. CSVs for NPVOptimal, OptimalCost, NoAdaptCost, and OptimalAdapt will be saved for every ssp/rcp scenario (should end up with 12 CSVs)
+3. run the cell 1 and cell 2 to import necessary packages (make sure you have the packages installed!)
+4. run cells 4-7 to get segment list
+5. run cells 11-16 to read necessary data / helper functions
+6. runs cells 18-19
+7. run cell 22 to instantiate function run_ciam_data()
+8. run alls cells in the section "Run all segments in the Gulf Coast" cells 30-34
+9. CSVs for NPVOptimal, OptimalCost in 2050 and 2100, NoAdaptCost in 2050 and 2100, and OptimalAdapt will be saved for every ssp/rcp scenario (should end up with 18 CSVs)
