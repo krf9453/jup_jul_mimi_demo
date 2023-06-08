@@ -13,7 +13,9 @@ this data runs this for 10000 trials of parameters, saving parameter data
 
 1. pull sneasy_param.ipynb, run_ciam_data_function.jl, downscaling.jl, projections_csv files (for contribution data), gulf_segments.csv, lonlat_gulf_list.csv, move_factor_s.csv, dvbm_s.csv, vslel_s.csv, vslmult_s.csv, wvel_s.csv, wvpdl_s.csv
 2. run cells 1-9 to read necessray data (also make sure you have packages installed!)
+
 *do NOT run cell 15!!!!! else you change the parameter data!!!!*
 3. run cells 17-18 to get parameters
 4. run cells 24-29 
+
 (should end up with 24 csvs)
